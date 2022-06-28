@@ -17,6 +17,7 @@ class HomePage:
     successMessage = (By.CSS_SELECTOR, "[class*='alert-success']")
     print("Message1")
     print("Message2")
+    print("Message3")
 
     def shopItems(self):
         self.driver.find_element(*HomePage.shop).click()

@@ -18,6 +18,7 @@ class HomePage:
     print("Message1")
     print("Message2")
     print("Message3")
+    print("Message4")
 
     def shopItems(self):
         self.driver.find_element(*HomePage.shop).click()

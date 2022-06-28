@@ -15,6 +15,8 @@ class HomePage:
     gender= (By.ID, "exampleFormControlSelect1")
     submit = (By.XPATH, "//input[@value='Submit']")
     successMessage = (By.CSS_SELECTOR, "[class*='alert-success']")
+    print("Message1")
+    print("Message2")
 
     def shopItems(self):
         self.driver.find_element(*HomePage.shop).click()
